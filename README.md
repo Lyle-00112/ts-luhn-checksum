@@ -1,13 +1,11 @@
-# Luhn Checksum Validator/Generator
+# Luhn checksum validate/generate
 
-This utility provides Luhn checksum validation and generation for card numbers and IDs, operating independently without external dependencies.
+Validate and generate Luhn check digits (cards, IDs) — pure, dependency-free.
 
-No external packages or services required — built using only the standard library.
+TypeScript Luhn Checksum uses only the typescript standard library; there is no service or dependency to install.
 
-```typescript
 ```
 luhn.ts
 ```
-```
 
-Refer to the accompanying test code for examples on how to use this feature.
+Run the TypeScript Luhn Checksum test next to the implementation for concrete examples.
