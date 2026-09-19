@@ -1,11 +1,8 @@
 # Luhn checksum validate/generate
 
-Validate and generate Luhn check digits (cards, IDs) — pure, dependency-free.
-
-TypeScript Luhn Checksum uses only the typescript standard library; there is no service or dependency to install.
+You need to validate and generate Luhn check digits for payment cards or internal IDs. I wrote this in plain TypeScript using only the standard library. There are no external packages to install and no network calls to make. Keeping dependencies out of your bundle matters when you are optimizing for latency and token costs.
 
 ```
 luhn.ts
 ```
-
-Run the TypeScript Luhn Checksum test next to the implementation for concrete examples.
+Look at the test file sitting right next to the implementation. It provides concrete usage examples so you can get back to shipping.
